@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DuCkat</string>
+    <string name="version">0.0.22-29-alpha</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_application_id" translatable="false">308125296641078</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb308125296641078</string>
+    <string name="sign_in_cancelled">Sign in cancel!</string>
+    <string name="no_internet_connection">No internet connection, please try again!</string>
+    <string name="unknown_error">Unknown_error</string>
+    <string name="fui_sign_in_with_facebook" translatable="false">Sign in with Facebook (Beta)</string>
+    <string name="friend_viewmode_FriendList">Friends list:</string>
+    <string name="friend_viewmode_Search">Search:</string>
+
+</resources>

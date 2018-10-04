@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_chat"
+            android:title="Chat"
+            android:icon="@drawable/ic_chat_black_24dp"/>
+
+        <item android:title="Sign Out"
+            android:id="@+id/menu_sign_out"
+            android:icon="@drawable/ic_signout_black_24dp"/>
+
+        <item android:title="Friends"
+            android:id="@+id/menu_friends"
+            android:icon="@drawable/ic_friends_black_24dp"/>
+
+        <item android:title="Service">
+            <menu>
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about_outline_black_24dp"
+                    android:title="About" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
